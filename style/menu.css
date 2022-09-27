@@ -1,0 +1,44 @@
+.botonera{
+    float: right;
+}
+#menu{
+    display: none;
+}
+@media (max-width: 1000px){
+    .botonera{
+        float: none;
+        position: relative;
+        left: -150%;
+    }
+    #menu{
+        display: block;
+    }
+    .botonera ul{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        background: coral;
+        z-index: 200;
+        top: 140px;
+        width: 60%;
+        line-height: 30px;
+    }
+    .botonera a{
+        border-bottom: 10px solid black;
+    }
+    .botonera a:hover{
+        font-size: 30px;
+    }
+    .botonera-open{
+        left: 46%;
+    }
+    span{
+        font-size: 36px;
+        margin: 15px 7%;
+        float: right;
+    }
+    header h1{
+        font-size: 24px;
+        margin-top: 15px;
+    }
+}

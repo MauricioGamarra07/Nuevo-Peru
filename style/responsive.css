@@ -1,0 +1,36 @@
+#nosotros{
+    display: flex;
+    flex-direction: column;
+}
+@media (max-width: 900px){
+    .cont-banner{
+        z-index: 100;
+        width: 300px;
+        transform: translateX(-150px, -50px);
+    }
+    .card{
+        margin-bottom: 20px;
+    }
+    form{
+        width: 600px;
+    }
+}
+@media (max-width: 360px){
+    .cont-banner{
+        width: 300px;
+        transform: translate(-80px, 200px);
+    }
+    #tumi{
+        transform: translateX(30px);
+    }
+    .nosotros{
+        width: 300px;
+        margin-left: 30px;
+    }
+    #chavin{
+        width: 300px;
+    }
+    .banner{
+        height: 150vh;
+    }
+}

@@ -1,0 +1,17 @@
+#nosotros{
+    width: 80%;
+    margin: 30px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nosotros{
+    width: 550px;
+    margin-right: 30px;
+}
+#chavin{
+    width: 400px;
+}
+aside{
+    background-color: coral;
+}
