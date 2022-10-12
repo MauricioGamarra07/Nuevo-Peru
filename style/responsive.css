@@ -2,17 +2,31 @@
     display: flex;
     flex-direction: column;
 }
+@media (max-width: 1115px){
+    .cont-banner{
+        width: 450px;
+    }
+}
 @media (max-width: 900px){
     .cont-banner{
-        z-index: 100;
         width: 300px;
-        transform: translateX(-150px, -50px);
     }
     .card{
         margin-bottom: 20px;
     }
     form{
         width: 600px;
+    }
+}
+@media (max-width: 700px){
+    .banner{
+        padding-top: 40px;
+    }
+    .cont-banner{
+        padding-bottom: 20px;
+    }
+    .info-banner{
+        flex-direction: column;
     }
 }
 @media (max-width: 360px){

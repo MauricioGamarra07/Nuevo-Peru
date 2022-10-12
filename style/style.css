@@ -48,15 +48,15 @@ a:hover{
     width: 100%;
     min-height: 90vh;
 }
+.info-banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 .cont-banner{
-    position: absolute;
-    top: 45%;
-    left: 30%;
     width: 600px;
-    transform: translate(-50%,-30%);
     color: white;
     line-height: 30px;
-    float: left;
 }
 .cont-banner h2{
     text-align: center;
@@ -64,11 +64,6 @@ a:hover{
 }
 .cont-banner p{
     font-size: 18px;
-}
-.tumi{
-    position: absolute;
-    right: 0;
-    margin-right: 10%;
 }
 #tumi{
     height: 90vh;
