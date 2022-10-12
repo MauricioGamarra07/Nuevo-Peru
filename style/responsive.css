@@ -7,12 +7,14 @@
         width: 450px;
     }
 }
+@media (max-width: 1000px){
+    .card{
+        margin-bottom: 10px;
+    }
+}
 @media (max-width: 900px){
     .cont-banner{
         width: 300px;
-    }
-    .card{
-        margin-bottom: 20px;
     }
     form{
         width: 600px;
@@ -23,10 +25,15 @@
         padding-top: 40px;
     }
     .cont-banner{
-        padding-bottom: 20px;
+        width: 450px;
     }
     .info-banner{
         flex-direction: column;
+    }
+}
+@media (max-width: 575px){
+    #img-card{
+        width: 50%;
     }
 }
 @media (max-width: 360px){
